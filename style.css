@@ -1,0 +1,189 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Playfair Display';
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.bgimg1{
+  background-image: url(image/GBU1.jpg);
+  min-height: 100%;
+}
+
+.bgimg2{
+  background-image: url(image/GBU2.jpg);
+  min-height: 500px;
+}
+
+.bgimg3{
+  background-image: url(image/GBU3.jpg);
+  min-height: 500px;
+} 
+
+.bgimg4{
+  background-image: url(image/GBU4.jpg);
+  min-height: 500px;
+}
+
+.bgimg5{background-image: url(image/GBU5.jpg);
+  min-height: 500px;
+}  
+
+
+.bgimg1,
+.bgimg2,
+.bgimg3,
+.bgimg4,
+.bgimg5
+ {
+ 
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pagetext{
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  background-color:#282e3462;
+  color: whitesmoke;
+  font-size: 30px;
+  letter-spacing: 8px;
+  
+
+
+
+
+}
+
+.text{
+  background-color:rgba(87, 84, 84, 0.712) ;
+  color: white;
+  padding: 20px;
+}
+
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+
+   
+}
+
+.section-light{
+  background-color:#ddd;
+  color:#282e34 ;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color: #ddd;
+}
+
+
+.SignIn{
+  background-color:#282e34;
+  color: white;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 8px;
+
+ }
+
+
+.golib{
+  background-color:#282e34;
+  color: white;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+ 
+
+
+
+
+.goserver{
+  background-color:#282e34;
+  color: white;
+  width: 220px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 8px;
+ }
+
+.goclub{
+  background-color:#282e34;
+  color: white;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 20px;
+}
+
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #ddd;
+  color: #333;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}

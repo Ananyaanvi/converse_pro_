@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup page</title>
+  <style>
+    *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.outer-box {
+   width: 100vw;
+   height: 100vh;
+   border: 2px solid black;
+  
+
+  
+}
+
+.inner-box {
+   width: 400px;
+   margin: 0 auto;
+   position: relative;
+   top: 40%;
+   transform: translateY(-50%);
+   padding: 20px 40px;
+   background-color: #ffffff09;
+   backdrop-filter: blur(8px);
+   border-radius: 8px;
+   box-shadow: 2px 2px 5px;
+   z-index: 2;
+
+}
+
+.signup-header h1 {
+   font-size: 2.5rem;
+
+}
+
+.signup-body{
+   margin: 20px 0;
+}
+
+.signup-body p {
+   margin: 10px 10px;
+
+}
+
+.signup-body p label{
+   display: block;
+
+}
+
+.signup-body p input{
+   width: 100%;
+   padding:10px ;
+   border: 2px solid #cccc;
+   border-radius: 4px;
+   margin-top: 4px;
+}
+
+.signup-body p input[type="submit"] {
+   background-color: #303ebb;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover {
+   background-color: #1e5e88;
+}
+
+.signup-footer p{
+   color: #555;
+   text-align: center;
+}
+.signup-footer p a{
+   color:  #1e5e88;
+
+}
+
+
+  </style>
+  <link rel="shortcut icon" href="c:\Users\Ananya\Desktop\HTML-CSS\project5\image\favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="outer-box">
+    <div class="inner-box">
+      <header class="signup-header">
+       <h1>Signup</h1>
+      </header>
+      <main class="signup-body">
+        <form action="#"></form>
+        
+        <p>
+          <label for="fullname">FullName</label>
+          <input type="text" id="fullname" placeholder="Ananya Anvi" required >
+        </p>
+        
+
+        <p>
+          <label for="email">Your Email Id</label>
+          <input type="email" id="email" placeholder="Ananyaanvi@gmail.com" required >
+        </p>
+
+        <p>
+          <label for="password">Your New password</label>
+          <input type="password" id="password" placeholder="atleast 6 characters" required >
+        </p>
+
+        <p>
+          <input type="submit" id="submit" value="Create Account" >
+        </p>
+      </main>
+      <footer>
+        <div class="signup-footer">
+        <p> Already have an Account <a href="#">Login
+        </a>
+        </p>
+      </div>
+      </div>
+   
+
+</body>
+</html
